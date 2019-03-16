@@ -1,0 +1,95 @@
+.header
+{
+    height: 170px;
+    width: 100%;
+    background-color: red transparent;
+}
+.logo
+{
+ margin-left: 30px;
+}
+.headertext
+{
+    margin-top: -100px;
+    float: right;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul 
+{
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li 
+{
+  border-right:2px solid white;
+    float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a 
+{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+li a:hover
+{
+  background-color: white;
+    color: black;
+}
+.main
+{
+    height: 700px;
+    width: 100%;
+    background-color: yellow;
+}
+.table
+{
+    height: 700px;
+    width: 100%;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: purple transparent;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+}
+
+.footer
+{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+.footertext
+{
+    color: white;
+    
+}
